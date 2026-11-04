@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { margin: 0; background: #f4f6f9; color: #243040; font-family: "Segoe UI", Inter, system-ui, sans-serif; }
+button, input, select { font: inherit; }
+button { min-height: 40px; }
+input:focus, select:focus { outline: 2px solid #fecdd3; border-color: #e31c3d; }
